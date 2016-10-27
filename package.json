@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YVeselovskyi/react-stars.git"
+    "url": "git+https://github.com/YVeselovskyi/react-boiler.git"
   },
   "author": "Yaroslav Veselovskyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YVeselovskyi/react-stars/issues"
+    "url": "https://github.com/YVeselovskyi/react-boiler/issues"
   },
-  "homepage": "https://github.com/YVeselovskyi/react-stars#readme"
+  "homepage": "https://github.com/YVeselovskyi/react-boiler#readme"
 }
