@@ -15,6 +15,9 @@ const config = {
             test: /\.jsx?/,
             include: APP_DIR,
             loader: 'babel'
+        }, {
+            test: /\.sass$/,
+            loaders: ['style', 'css', 'sass']
         }]
     }
 };

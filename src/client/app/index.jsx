@@ -1,10 +1,18 @@
+require('./style.sass');
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
 
-class App extends React.Component {
-  render () {
-    return <p> Hello React MotherFUCKERFUCKER!</p>;
-  }
+function tick() {
+  const element = (
+    <div className="timer">
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(
+    element,
+    document.getElementById('app')
+  );
 }
 
-render(<App/>, document.getElementById('app'));
+setInterval(tick, 1000);
